@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Web3DTest.icon.png-1ee3de44e4d0f98a6fc597ba006780a1.stex"
+path="res://.import/Web3DTest.icon.png-4e85f3ae314d0e5f658eb5df8143df2d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://export/Web3DTest.icon.png"
-dest_files=[ "res://.import/Web3DTest.icon.png-1ee3de44e4d0f98a6fc597ba006780a1.stex" ]
+source_file="res://docs/Web3DTest.icon.png"
+dest_files=[ "res://.import/Web3DTest.icon.png-4e85f3ae314d0e5f658eb5df8143df2d.stex" ]
 
 [params]
 

@@ -1,0 +1,137 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 12.09.2010 01:40:48
+
+newmtl awning
+	map_Kd awning.png
+
+newmtl bark
+	map_Kd bark.png
+
+newmtl bridge
+	map_Kd bridge.png
+
+newmtl bush
+	map_Kd bush.png
+
+newmtl bushside
+	map_Kd bushside.png
+
+newmtl curtain
+	map_Kd curtain.png
+
+newmtl cut
+	map_Kd cut.png
+
+newmtl dead
+	map_Kd dead.png
+
+newmtl doodd
+	map_Kd doodd.png
+
+newmtl doodh
+	map_Kd doodh.png
+
+newmtl doods
+	map_Kd doods.png
+
+newmtl edge
+	map_Kd edge.png
+
+newmtl enter
+	map_Kd enter.png
+
+newmtl exit
+	map_Kd exit.png
+
+newmtl fade
+	map_Kd fade.png
+
+newmtl fence
+	map_Kd fence.png
+
+newmtl fencew
+	map_Kd fencew.png
+
+newmtl grass
+	map_Kd grass.png
+
+newmtl grassmix
+	map_Kd grassmix.png
+
+newmtl house
+	map_Kd house.png
+
+newmtl ladder
+	map_Kd ladder.png
+
+newmtl leaf
+	map_Kd leaf.png
+
+newmtl ledge
+	map_Kd ledge.png
+
+newmtl mido
+	map_Kd mido.png
+
+newmtl patch
+	map_Kd patch.png
+
+newmtl path
+	map_Kd path.png
+
+newmtl pathe
+	map_Kd pathe.png
+
+newmtl patht
+	map_Kd patht.png
+
+newmtl porch
+	map_Kd porch.png
+
+newmtl rail
+	map_Kd rail.png
+
+newmtl saria
+	map_Kd saria.png
+
+newmtl shop
+	map_Kd shop.png
+
+newmtl shroom
+	map_Kd shroom.png
+
+newmtl step
+	map_Kd step.png
+
+newmtl steptop
+	map_Kd steptop.png
+
+newmtl tower
+	map_Kd tower.png
+
+newmtl trees
+	map_Kd trees.png
+
+newmtl treetop
+	map_Kd treetop.png
+
+newmtl trunks
+	map_Kd trunks.png
+
+newmtl vine
+	map_Kd vine.png
+
+newmtl vineh
+	map_Kd vineh.png
+
+newmtl vinew
+	map_Kd vinew.png
+
+newmtl wall
+	map_Kd wall.png
+
+newmtl walls
+	map_Kd walls.png
+
+newmtl water
+	map_Kd water.png

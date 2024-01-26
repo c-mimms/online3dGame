@@ -4,9 +4,9 @@ extends KinematicBody
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var speed = 10
+var speed = 20
 var gravity = -9.8  # Define gravity
-var jump_force = 5  # Define jump force
+var jump_force = 10 # Define jump force
 
 
 var velocity = Vector3()  # Move velocity outside of _physics_process
