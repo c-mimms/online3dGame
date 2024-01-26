@@ -1,17 +1,22 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://mountain.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://Character.gd" type="Script" id=2]
 [ext_resource path="res://elephant.png" type="Texture" id=3]
 [ext_resource path="res://Kokiri Forest.tscn" type="PackedScene" id=4]
+[ext_resource path="res://ToBeDropped.tscn" type="PackedScene" id=5]
 
 [sub_resource type="BoxShape" id=2]
 extents = Vector3( 0.25, 1, 0.25 )
 
 [node name="Spatial" type="Spatial"]
 
+[node name="FirstPersonController" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.75533, 19.3022, -1.67188 )
+
 [node name="Character" type="KinematicBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.583072, 18.3691, 1.4449 )
+visible = false
 script = ExtResource( 2 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Character"]
@@ -26,7 +31,6 @@ texture = ExtResource( 3 )
 
 [node name="Camera" type="Camera" parent="Character"]
 transform = Transform( 1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0.0430157, 3.10039, 3.5133 )
-current = true
 far = 1000.0
 
 [node name="MeshInstance" type="MeshInstance" parent="Character"]
